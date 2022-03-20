@@ -10,13 +10,12 @@ const modal = () => {
         })
     })
 
-
     modalCloseBtn.addEventListener('click', () => {
-        modal.classList.add('hidden')
+        modal.classList.toggle('hidden')
     })
 
     overlay.addEventListener('click', () => {
-        modal.classList.add('hidden')
+        modal.classList.toggle('hidden')
     })
 }
 
