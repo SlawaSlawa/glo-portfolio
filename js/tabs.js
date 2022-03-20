@@ -4,7 +4,6 @@ const tabs = () => {
     const tabImages = document.querySelectorAll('.design-images')
 
     const changeContent = (content, data) => {
-        console.log(content, data);
         content.forEach(elem => {
             if (data === elem.dataset.tabsField) {
                 elem.classList.remove('hidden')
